@@ -1,0 +1,54 @@
+{
+    "configurations": [
+        {
+            "name": "test",
+            "policies": [
+                {
+                    "name": "Quota-1.xml",
+                    "tokens": [
+                        {
+                            "xpath": "",
+                            "value": ""
+                        }
+                    ]
+                }
+            ],
+            "proxies": [
+                {
+                    "name": "Spike-Arrest-1.xml",
+                    "tokens": [
+                        {
+                            "xpath": "",
+                            "value": ""
+                        }
+                    ]
+                }
+            ],
+            "targets": [
+                {
+                    "name": "VerifyAccessToken.xml",
+                    "tokens": [
+                        {
+                            "xpath": "",
+                            "value": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "prod",
+            "policies": [
+                {
+                    "name": "XML-to-JSON-1.xml",
+                    "tokens": [
+                        {
+                            "xpath": "",
+                            "value": ""
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
